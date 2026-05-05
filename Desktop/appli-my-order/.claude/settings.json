@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcodebuild -project MyOrder.xcodeproj -scheme MyOrder -destination 'platform=iOS Simulator,name=iPhone 16' build)",
+      "Bash(xcodebuild -project MyOrder.xcodeproj -scheme MyOrder -destination 'platform=iOS Simulator,name=iPhone 17 Pro' build)"
+    ]
+  }
+}

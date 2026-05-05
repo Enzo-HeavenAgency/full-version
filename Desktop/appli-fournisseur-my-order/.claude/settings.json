@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcodebuild -project /Users/enzo/Desktop/appli-fournisseur-my-order/appli-fournisseur-myorder/IOS/MyOrder.xcodeproj -list)",
+      "Bash(xcodebuild -project /Users/enzo/Desktop/appli-fournisseur-my-order/appli-fournisseur-myorder/IOS/MyOrder.xcodeproj -scheme MyOrder -destination 'generic/platform=iOS Simulator' -configuration Debug build)",
+      "Read(//tmp/**)",
+      "Bash(ls /Users/enzo/Desktop/appli-fournisseur-my-order/appli-fournisseur-myorder/IOS/*.xcodeproj /Users/enzo/Desktop/appli-fournisseur-my-order/appli-fournisseur-myorder/IOS/*.xcworkspace)",
+      "Bash(xcodebuild -project MyOrder.xcodeproj -scheme MyOrder -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 16' build)",
+      "Bash(xcodebuild -project MyOrder.xcodeproj -list)",
+      "Bash(xcodebuild -project MyOrder.xcodeproj -scheme \"MyOrder Fournisseur\" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 16' build)",
+      "Bash(xcodebuild -project MyOrder.xcodeproj -scheme \"MyOrder Fournisseur\" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 17 Pro' build)",
+      "Read(//Users/enzo/Desktop/**)",
+      "Bash(grep -n \"entrepots\\\\|warehouse\\\\|Warehouse\" /Users/enzo/Desktop/appli-fournisseur-my-order/appli-fournisseur-myorder/fournisseur-appweb/app/\\\\\\(dashboard\\\\\\)/*/page.tsx)",
+      "Bash(xcodebuild -project MyOrder.xcodeproj -scheme MyOrder -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' -configuration Debug build)",
+      "Bash(xcodebuild -project MyOrder.xcodeproj -scheme \"MyOrder Fournisseur\" -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' -configuration Debug build)",
+      "Bash(xcodebuild -project MyOrder.xcodeproj -scheme \"MyOrder Fournisseur\" -destination 'platform=iOS Simulator,name=iPhone 17 Pro,OS=26.2' -configuration Debug build)"
+    ]
+  }
+}
